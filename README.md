@@ -1,3 +1,7 @@
+# My Social
+
+A web and mobile application workspace based on create-t3-turbo, with Next.js, Expo, tRPC, Better Auth, Drizzle, and shared UI and tooling packages.
+
 # create-t3-turbo
 
 > [!NOTE]
@@ -257,3 +261,8 @@ Deploying your Expo application works slightly differently compared to Next.js o
 The stack originates from [create-t3-app](https://github.com/t3-oss/create-t3-app).
 
 A [blog post](https://jumr.dev/blog/t3-turbo) where I wrote how to migrate a T3 app into this.
+
+
+## Fork author and maintainer
+
+[rajivranjanmars](https://rajivranjana.in) maintains this repository. Original project authors, licenses, and upstream credits are retained.
