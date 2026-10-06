@@ -265,4 +265,4 @@ A [blog post](https://jumr.dev/blog/t3-turbo) where I wrote how to migrate a T3 
 
 ## Fork author and maintainer
 
-[rajivranjanmars](https://rajivranjana.in) maintains this repository. Original project authors, licenses, and upstream credits are retained.
+[Rajiv Ranjan](https://rajivranjan.in) maintains this repository. Original project authors, licenses, and upstream credits are retained.
