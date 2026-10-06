@@ -11,7 +11,7 @@ catalog:
   "@tanstack/react-query": ^5.80.7
   "@trpc/client": ^11.4.0
   "@trpc/tanstack-react-query": ^11.4.0
-  "@trpc/server": ^11.4.0
+  "@trpc/server": ^11.19.0
 catalogs:
   react19:
     react: 19.0.0
