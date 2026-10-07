@@ -49,7 +49,7 @@
     "@acme/prettier-config": "workspace:*",
     "@acme/tailwind-config": "workspace:*",
     "@acme/tsconfig": "workspace:*",
-    "@babel/core": "^7.27.4",
+    "@babel/core": "^7.29.6",
     "@babel/preset-env": "^7.27.2",
     "@babel/runtime": "^8.0.5",
     "@types/babel__core": "^7.20.5",
