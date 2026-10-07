@@ -76,8 +76,8 @@ importers:
         specifier: ^0.20.14
         version: 0.20.14
       '@legendapp/list':
-        specifier: ^1.0.15
-        version: 1.0.15(react-native@0.87.1(@babel/core@7.27.4)(@react-native/metro-config@0.87.1(@babel/core@7.27.4))(@types/react@19.1.6)(bufferutil@4.0.8)(react@19.0.0)(utf-8-validate@6.0.4))(react@19.0.0)
+        specifier: ^3.6.0
+        version: 3.6.0(react-dom@19.0.0(react@19.0.0))(react-native@0.87.1(@babel/core@7.27.4)(@react-native/metro-config@0.87.1(@babel/core@7.27.4))(@types/react@19.1.6)(bufferutil@4.0.8)(react@19.0.0)(utf-8-validate@6.0.4))(react@19.0.0)
       '@tanstack/react-query':
         specifier: 'catalog:'
         version: 5.80.7(react@19.0.0)
@@ -2716,11 +2716,17 @@ packages:
   '@jridgewell/trace-mapping@0.3.9':
     resolution: {integrity: sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==}
 
-  '@legendapp/list@1.0.15':
-    resolution: {integrity: sha512-26YMHveV/Y36408gm7gvk55QHMRx4Y8c4dKolAOvSCKmJ8EozY9hWFe3AaBhQyY/BokodjGpMLDs30HvsJq2HA==}
+  '@legendapp/list@3.6.0':
+    resolution: {integrity: sha512-ndGQjSYdA32LWErJYbXEm4+eta+4bo0NxQO7eA3Xcvh0rXSb1mTGPbUtUkpea5w4MYciLKaE+0hoPxlMcaMtrw==}
     peerDependencies:
       react: '*'
+      react-dom: '*'
       react-native: '*'
+    peerDependenciesMeta:
+      react-dom:
+        optional: true
+      react-native:
+        optional: true
 
   '@mrleebo/prisma-ast@0.13.1':
     resolution: {integrity: sha512-XyroGQXcHrZdvmrGJvsA9KNeOOgGMg1Vg9OlheUsBOSKznLMDl+YChxbkboRHvtFYJEMRYmlV3uoo/njCw05iw==}
@@ -11596,11 +11602,13 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@legendapp/list@1.0.15(react-native@0.87.1(@babel/core@7.27.4)(@react-native/metro-config@0.87.1(@babel/core@7.27.4))(@types/react@19.1.6)(bufferutil@4.0.8)(react@19.0.0)(utf-8-validate@6.0.4))(react@19.0.0)':
+  '@legendapp/list@3.6.0(react-dom@19.0.0(react@19.0.0))(react-native@0.87.1(@babel/core@7.27.4)(@react-native/metro-config@0.87.1(@babel/core@7.27.4))(@types/react@19.1.6)(bufferutil@4.0.8)(react@19.0.0)(utf-8-validate@6.0.4))(react@19.0.0)':
     dependencies:
       react: 19.0.0
-      react-native: 0.87.1(@babel/core@7.27.4)(@react-native/metro-config@0.87.1(@babel/core@7.27.4))(@types/react@19.1.6)(bufferutil@4.0.8)(react@19.0.0)(utf-8-validate@6.0.4)
       use-sync-external-store: 1.5.0(react@19.0.0)
+    optionalDependencies:
+      react-dom: 19.0.0(react@19.0.0)
+      react-native: 0.87.1(@babel/core@7.27.4)(@react-native/metro-config@0.87.1(@babel/core@7.27.4))(@types/react@19.1.6)(bufferutil@4.0.8)(react@19.0.0)(utf-8-validate@6.0.4)
 
   '@mrleebo/prisma-ast@0.13.1':
     dependencies:
@@ -12566,7 +12574,7 @@ snapshots:
       '@babel/plugin-transform-private-methods': 7.27.1(@babel/core@7.27.4)
       '@babel/plugin-transform-private-property-in-object': 7.27.1(@babel/core@7.27.4)
       '@babel/plugin-transform-react-display-name': 7.27.1(@babel/core@7.27.4)
-      '@babel/plugin-transform-react-jsx': 7.27.1(@babel/core@7.27.4)
+      '@babel/plugin-transform-react-jsx': 7.29.7(@babel/core@7.27.4)
       '@babel/plugin-transform-react-jsx-self': 7.27.1(@babel/core@7.27.4)
       '@babel/plugin-transform-react-jsx-source': 7.27.1(@babel/core@7.27.4)
       '@babel/plugin-transform-regenerator': 7.27.5(@babel/core@7.27.4)
@@ -12605,7 +12613,7 @@ snapshots:
       '@babel/plugin-transform-private-methods': 7.27.1(@babel/core@7.29.7)
       '@babel/plugin-transform-private-property-in-object': 7.27.1(@babel/core@7.29.7)
       '@babel/plugin-transform-react-display-name': 7.27.1(@babel/core@7.29.7)
-      '@babel/plugin-transform-react-jsx': 7.27.1(@babel/core@7.29.7)
+      '@babel/plugin-transform-react-jsx': 7.29.7(@babel/core@7.29.7)
       '@babel/plugin-transform-react-jsx-self': 7.27.1(@babel/core@7.29.7)
       '@babel/plugin-transform-react-jsx-source': 7.27.1(@babel/core@7.29.7)
       '@babel/plugin-transform-regenerator': 7.27.5(@babel/core@7.29.7)
