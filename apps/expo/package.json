@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@better-auth/expo": "1.2.12",
-    "@expo/metro-config": "^0.20.14",
+    "@expo/metro-config": "^58.0.8",
     "@legendapp/list": "^3.6.0",
     "@tanstack/react-query": "catalog:",
     "@trpc/client": "catalog:",
