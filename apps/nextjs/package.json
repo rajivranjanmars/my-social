@@ -35,7 +35,7 @@
     "@acme/prettier-config": "workspace:*",
     "@acme/tailwind-config": "workspace:*",
     "@acme/tsconfig": "workspace:*",
-    "@types/node": "^26.6.4",
+    "@types/node": "^26.6.5",
     "@types/react": "catalog:react19",
     "@types/react-dom": "catalog:react19",
     "dotenv-cli": "^11.0.0",
