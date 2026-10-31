@@ -22,7 +22,7 @@
     "@trpc/client": "catalog:",
     "@trpc/server": "catalog:",
     "@trpc/tanstack-react-query": "catalog:",
-    "better-auth": "1.6.22",
+    "better-auth": "1.7.7",
     "expo": "58.0.3",
     "expo-constants": "17.1.6",
     "expo-dev-client": "57.0.19",
