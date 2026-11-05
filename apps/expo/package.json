@@ -15,7 +15,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@better-auth/expo": "1.7.13",
+    "@better-auth/expo": "1.7.15",
     "@expo/metro-config": "^58.0.19",
     "@legendapp/list": "^3.6.0",
     "@tanstack/react-query": "catalog:",
