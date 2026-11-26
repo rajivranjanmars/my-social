@@ -27,7 +27,7 @@
     "next": "^16.4.3",
     "react": "catalog:react19",
     "react-dom": "catalog:react19",
-    "superjson": "2.2.6",
+    "superjson": "2.2.7",
     "zod": "catalog:"
   },
   "devDependencies": {
